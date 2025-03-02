@@ -117,4 +117,4 @@ async def on_message(message):
             await message.channel.send('คุณไม่มีสิทธิ์ใช้คำสั่งนี้!')
 
 # รันบอทด้วย Token ของคุณ
-client.run('MTIzMzUyMzc5NzUwMDQ5Nzk2MQ.GolMNb.703sfsnJhH3z2vdgbXoYEf49M14Y1_9B9z8K2w')  # เปลี่ยน YOUR_BOT_TOKEN ด้วย Token ของบอทที่คุณได้จาก Discord Developer Portal
+client.run('MTIzMzUyMzc5NzUwMDQ5Nzk2MQ.GANAYp.auGfQVpJFBoBnKvXrj2zFixxEdZjAMlg7-CgW0')  # เปลี่ยน YOUR_BOT_TOKEN ด้วย Token ของบอทที่คุณได้จาก Discord Developer Portal
