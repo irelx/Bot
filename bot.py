@@ -36,7 +36,7 @@ async def on_message(message):
         await message.channel.send('# @here มี แอนดรอย ios pc (เลือกแล้วพิมแค่นั้นเช่น "pc") เป็นตั้งค่าของเกมไม่เกี่ยวกับไฟล์เกม')
 
     # ตัวอย่างตอบกลับข้อความ "ซีอยู่ไหม"
-    elif message.content.lower() == 'มีตั้งค่าค่า':
+    elif message.content.lower() == 'มีตั้งค่า':
         await message.channel.send('# เอาของอะไรดีครับ')
 
     # ตัวอย่างตอบกลับข้อความ "ซีอยู่ไหม"
@@ -48,7 +48,7 @@ async def on_message(message):
         await message.channel.send('# มีครับ ราคา 100 ')
 
             # ตัวอย่างตอบกลับข้อความ "ซีอยู่ไหม"
-    elif message.content.lower() == 'มีตั้งค่าแอนดรอยไหม':
+    elif message.content.lower() == 'มีตั้งค่าแอนดรอยไหม':  
         await message.channel.send('# มีครับ 30บาท ')
         
             # ตัวอย่างตอบกลับข้อความ "ซีอยู่ไหม"
@@ -117,4 +117,4 @@ async def on_message(message):
             await message.channel.send('คุณไม่มีสิทธิ์ใช้คำสั่งนี้!')
 
 # รันบอทด้วย Token ของคุณ
-client.run('MTIzMzUyMzc5NzUwMDQ5Nzk2MQ.GNKOaU.YUhal86RnxyibOY7V52G_zH7BDFYqAdQDqOfik')  # เปลี่ยน YOUR_BOT_TOKEN ด้วย Token ของบอทที่คุณได้จาก Discord Developer Portal
+client.run('MTIzMzUyMzc5NzUwMDQ5Nzk2MQ.GolMNb.703sfsnJhH3z2vdgbXoYEf49M14Y1_9B9z8K2w')  # เปลี่ยน YOUR_BOT_TOKEN ด้วย Token ของบอทที่คุณได้จาก Discord Developer Portal
